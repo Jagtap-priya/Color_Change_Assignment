@@ -64,7 +64,5 @@ public class MainActivity extends AppCompatActivity {
                                 Text3.setBackgroundColor(MainActivity.this.getColor(R.color.red));
                             }
                     }
-
-
     }
 }
