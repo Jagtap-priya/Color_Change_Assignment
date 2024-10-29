@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_launcher_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <EditText
+        android:id="@+id/krishna1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Krishna1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/yellow"
+        app:layout_constraintTop_toBottomOf="@id/imageview"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <EditText
+        android:id="@+id/krishna2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/krishna1"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Krishna2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/yellow"
+        />
+    <EditText
+        android:id="@+id/krishna3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Krishna3"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/yellow"
+        app:layout_constraintTop_toBottomOf="@id/krishna2"
+        app:layout_constraintLeft_toRightOf="parent"
+      />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Click"
+        android:textSize="30sp"
+        android:background="@color/pink"
+        app:layout_constraintTop_toBottomOf="@id/krishna3"
+        app:layout_constraintLeft_toRightOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
